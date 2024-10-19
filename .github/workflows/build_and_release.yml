@@ -50,7 +50,7 @@ jobs:
       - name: Test index.js
         env:
           INPUT_GITHUB_USERNAME: "Axello0"
-          INPUT_GITHUB_TOKEN: ${{ secrets.ACTIONSSECRETRDDT2024 }}
+          INPUT_GITHUB_TOKEN: ${{ secrets.ACTIONSSECRETAXEL }}
           INPUT_TARGET_REPOS: '[Axello0/activity-log_PLN]'
           INPUT_OUTPUT_STYLE: MARKDOWN
           INPUT_IGNORE_EVENTS: '[]'
